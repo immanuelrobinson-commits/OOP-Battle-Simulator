@@ -43,5 +43,7 @@ def main():
     goblin.take_damage(herodamage)
     battle(greg, goblin)
 
+bossguy = Goblin("bossmangoblow")
+
 if __name__ == "__main__":
     main()
